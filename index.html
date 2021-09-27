@@ -1,68 +1,64 @@
 <!DOCTYPE html>
- <html>
+<html>
   <head>
-    <meta charset="utf-8">
-    <title></title>
-   <style>
-      p{
-        text-align: right;
-      }
-      #grid div{
-        display:grid;
-      }
-      a{
-        text-decoration: none;
-        color: black;
-      }
-      @media(max-width:700px){
-  #photo p {
-    display: none;
-  }
-      }
+    <meta charset="UTF-8">
+    <title>Aspesi blu</title>
+    <LINK REL="ICON" HREF="./images/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&display=swap" rel="stylesheet">
+    <style>
+    body {
+      margin: 0;
+    }
+    .background1 {
+      width: auto;
+      height: 842px;
+      background-image: url(./images/row1.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      filter: grayscale(100%);
+      text-align: center;
+      line-height: 842px;
+      font-size: 24px;
+      font-family: Architects Daughter;
+    }
+    .background2 {
+      font-family: Alegreya;
 
-
-   </style>
+      width: auto;
+      height: 1000px;
+      background-image: url(./images/kolor1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      line-height: 400px;
+      font-size: 100px;
+      color: white;
+      filter: grayscale();
+    }
+    .button {
+      text-align: center;
+      color: rgb(33, 33, 33);
+      width: 250px;
+      height: 50px;
+      border: solid 0.1px rgb(173, 173, 173);
+      display: inline-block;
+      line-height: 50px;
+    }
+    .selectshop {
+      color: white;
+    }
+    </style>
   </head>
-
   <body>
-    <b> <span style="font-size:30px">aspesi</span>  <span style="font-size:40px">blu</span> </b>
-    <p><b>lookbook &nbsp; &nbsp;collection &nbsp; &nbsp;news &nbsp; &nbsp;journal &nbsp; &nbsp;stores &nbsp; &nbsp;search&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b> </p>
-
-
-      <div id="grid">
-        <div style="width:200px; height:150px; float: left;">
-          <br>
-          <br>
-          <br>
-          <a href="aspesiblumain.html"><span style="color:blue">NEW ARRIVALS<br></span></a>
-          <br>
-          <br>
-          <a href="aspesiblumain.html">BIRTHDAYSUIT 21AW<br></a>
-          <a href="aspesiblumain.html">AURALEE<br></a>
-          <a href="aspesiblumain.html">KOLOR<br></a>
-          <a href="aspesiblumain.html">BROWNYARD<br></a>
-          <a href="aspesiblumain.html">UNAFFECTED<br></a>
-          <a href="aspesiblumain">N.HOOLYWOOD<br></a>
-          <br>
-          <br>
-          <a href="aspesiblumain.html">OUTER<br></a>
-          <a href="aspesiblumain.html">TOP<br></a>
-          <a href="aspesiblumain.html">PANTS<br></a>
-          <a href="aspesiblumain.html">SHOES<br></a>
-          <a href="aspesiblumain.html">BAG<br></a>
-          <a href="aspesiblumain.html">ACC<br></a>
-          <span style="color:red">SALE<br></span>
-        </div>
-        <div id="photo" style="float:left;">
-          <p>
-          <img style="margin-bottom: 50px; margin-right: 50px; margin-left:200px;" src="anorock.jpg" width="200px">
-          <img style="margin-bottom: 50px; margin-right: 50px;"src="fisher.jpg" width="200px">
-          <img style="margin-bottom: 50px; margin-right: 50px;"src="haversack.jpg" width="200px">
-          <img style="margin-bottom: 50px; margin-right: 50px; margin-left:200px;"src="military.jpg" width="200px">
-          <img style="margin-bottom: 50px; margin-right: 50px;"src="pocket.jpg" width="200px">
-          <img style="margin-bottom: 50px; margin-right: 50px;"src="s2w8.jpg" width="200px">
-          <img style="margin-bottom: 50px; margin-right: 50px;"src="vest.jpg" width="200px">
-          </p>
-        </div>
-      </div>
+    <div class="background1">
+      <a href="./product.html"><div class="button">aspesi blu</div></a>
+    </div>
+    <div class="background2">
+      Aspesi Blu
+    </div>
+    $ git commit --allow-empty -m 'Trigger rebuild'
+    $ git push origin
   </body>
+</html>
